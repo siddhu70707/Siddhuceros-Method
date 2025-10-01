@@ -12,7 +12,7 @@ int main() {
     for (int i = 2; i <= N; i++) {
         squares[i] = squares[i-1] + (2*(i-1) + 1);
     }
-
+// Output all squares
     for (int i = 1; i <= N; i++) {
         cout << i << "^2 = " << squares[i] << endl;
     }
