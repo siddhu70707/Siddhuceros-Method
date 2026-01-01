@@ -10,7 +10,7 @@ int main() {
     squares[1] = 1;
 
     for (int i = 2; i <= N; i++) {
-        squares[i] = squares[i-1] + (2*(i-1) + 1);
+        squares[i] = squares[i-1] + ((i - 1) + (i-1) + 1);
     }
 // Output all squares
     for (int i = 1; i <= N; i++) {
